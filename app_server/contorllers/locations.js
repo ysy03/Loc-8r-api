@@ -4,8 +4,8 @@ const apiOption = {
     server: 'http://localhost:3000'
 };
 
-if(process.env.NODE_ENV == "production"){
-    apiOption.server = "https://loc-8r-api.onrender.com";
+if(process.env.NODE_ENV === "production"){
+    apiOption.server : "https://loc-8r-api.onrender.com";
 }
 
 const formatDistance = (distance)=>{
